@@ -1,0 +1,15 @@
+{   "name": "elmahdi/sanctum",
+    "description": "Sanctum Container.",
+    "type": "apiato-container",
+    "require": {
+        "laravel/sanctum": "^4.0"
+    },
+    "extra": {
+        "apiato": {
+          "container": {
+            "name": "Sanctum"
+          }
+        }
+      }
+    
+}
